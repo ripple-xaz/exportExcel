@@ -1,0 +1,329 @@
+{
+    "more_addon_link": "http://dolphin-browser.com/android/addons/index.html",
+    "about": "NULL",
+    "home_page": "dolphin://home",
+    "rate_me_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "more_theme_link": "http://www.dolphin-browser.com/theme/",
+    "show_download_translate": true,
+    "data_test": false,
+    "shares": {
+        "recommend_shares": [
+            {
+                "unique_name": "facebook",
+                "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_facebook_normal.png",
+                "share_url": "https://share.facebook/share.php?link={url}",
+                "package_name": "com.facebook.katana",
+                "title": "Facebook"
+            },
+            {
+                "unique_name": "whatsapp",
+                "icon": "",
+                "share_url": "",
+                "package_name": "com.whatsapp",
+                "title": "Whatsapp"
+            },
+            {
+                "unique_name": "twitter",
+                "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_twitter_normal.png",
+                "share_url": "https://twitter.com/intent/tweet?text={text}&url={url}&via={via}",
+                "package_name": "com.twitter.android",
+                "title": "Twitter"
+            },
+            {
+                "unique_name": "line",
+                "icon": "",
+                "share_url": "",
+                "package_name": "jp.naver.line.android",
+                "title": "LINE"
+            }
+        ],
+        "share_content": {
+            "app_url": "http://dolphin.com/download/",
+            "webpage_template": "@ دولفين",
+            "homepage_template": [
+                "المشاركة مع الأصدقاء لم تكن يوماً أسهل , جربها مع متصفح دولفين,{versionName}",
+                "لا حاجة لتطبيقات اخرى , قم بمشاركة كل ما تحب من خلال متصفحك,{versionName}",
+                "مشاركة هذا الرابط مع متصفح دولفين!,{versionName}"
+            ]
+        }
+    },
+    "hotapps": "http://www.dolphin-browser.com/apps/aphone.htm",
+    "search_engines": [
+        {
+            "searches": [
+                {
+                    "unique_name": "google",
+                    "title": "Google",
+                    "url": "http://www.google.com/search?hl={language}&ie={inputEncoding}&source=android-browser&q={searchTerms}",
+                    "suggest": "http://www.google.com/complete/search?hl={language}&client=android&q={searchTerms}",
+                    "order": 1,
+                    "default": true,
+                    "id": 190,
+                    "color": "#4283f0",
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/engine_google.png"
+                },
+                {
+                    "unique_name": "bing",
+                    "title": "Bing",
+                    "url": "http://www.bing.com/search?a=results&q={searchTerms}",
+                    "suggest": "http://api.bing.com/osjson.aspx?query={searchTerms}&language={language-country}",
+                    "order": 2,
+                    "default": false,
+                    "id": 191,
+                    "color": "#ffa511",
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/engine_bing.png"
+                },
+                {
+                    "unique_name": "yahoo",
+                    "title": "Yahoo! ",
+                    "url": "https://ar.search.yahoo.com/yhs/search?hspart=mobotap&hsimp=yhs-mobotap&p={searchTerms}",
+                    "suggest": "http://ff.search.yahoo.com/gossip?output=fxjson&command={searchTerms}",
+                    "order": 3,
+                    "default": false,
+                    "id": 192,
+                    "color": "#8b2b90",
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/engine_yahoo.png"
+                },
+                {
+                    "unique_name": "duckduckgo",
+                    "title": "DuckDuckGo",
+                    "url": "https://duckduckgo.com/?t=mobotap&q={searchTerms}",
+                    "suggest": "http://www.google.com/complete/search?hl={language}&client=android&q={searchTerms}",
+                    "order": 4,
+                    "default": false,
+                    "id": 193,
+                    "color": "#e23500",
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/engine_duckduckgo.png"
+                },
+                {
+                    "unique_name": "yandex_default",
+                    "title": "Yandex",
+                    "url": "http://yandex.ru/touchsearch?text={searchTerms}&clid=1771196",
+                    "suggest": "http://suggest.yandex.net/suggest?mob=1&sn=10&nav=yes&part={searchTerms}",
+                    "order": 5,
+                    "default": false,
+                    "id": 194,
+                    "color": "#a2a2a2",
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/engine_yandex.png"
+                }
+            ],
+            "last_modified": 1377260418,
+            "layout": 101,
+            "order": 1,
+            "title": "General Search INT"
+        },
+        {
+            "searches": [
+                {
+                    "title": "Amazon",
+                    "url": "http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={searchTerms}&x=0&y=0",
+                    "suggest": "http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={searchTerms}&x=0&y=0",
+                    "order": 1,
+                    "default": true,
+                    "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_amazon_pressed.png",
+                    "id": 201,
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_amazon_normal.png"
+                },
+                {
+                    "title": "YouTube",
+                    "url": "http://www.youtube.com/results?search_query={searchTerms}",
+                    "suggest": "http://www.youtube.com/results?search_query={searchTerms}",
+                    "order": 2,
+                    "default": false,
+                    "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_youtube_pressed.png",
+                    "id": 196,
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_youtube_normal.png"
+                },
+                {
+                    "title": "Wikipedia",
+                    "url": "http://en.m.wikipedia.org/w/index.php?title=Special:Search&search={searchTerms}",
+                    "suggest": "http://en.m.wikipedia.org/w/index.php?title=Special:Search&search={searchTerms}",
+                    "order": 3,
+                    "default": false,
+                    "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_wikipedia_pressed.png",
+                    "id": 197,
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_wikipedia_normal.png"
+                },
+                {
+                    "title": "Ebay",
+                    "url": "http://shop.ebay.com/?_nkw={searchTerms}&_sacat=See-All-Categories",
+                    "suggest": "http://shop.ebay.com/?_nkw={searchTerms}&_sacat=See-All-Categories",
+                    "order": 4,
+                    "default": false,
+                    "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_ebay_pressed.png",
+                    "id": 198,
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_ebay_normal.png"
+                },
+                {
+                    "title": "Twitter",
+                    "url": "https://mobile.twitter.com/search/?q={searchTerms}",
+                    "suggest": "https://mobile.twitter.com/search/?q={searchTerms}",
+                    "order": 5,
+                    "default": false,
+                    "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_twitter_pressed.png",
+                    "id": 199,
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_twitter_normal.png"
+                },
+                {
+                    "title": "Facebook",
+                    "url": "http://www.facebook.com/#!/search/?q={searchTerms}",
+                    "suggest": "http://www.facebook.com/#!/search/?q={searchTerms}",
+                    "selected": "false",
+                    "order": 6,
+                    "default": false,
+                    "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_facebook_pressed.png",
+                    "id": 211,
+                    "icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_facebook_normal.png"
+                }
+            ],
+            "last_modified": 1377260647,
+            "layout": 102,
+            "order": 1,
+            "title": "Vertical Search INT"
+        }
+    ],
+    "gesture": {
+        "marked_file": "http://opsen.dolphin-browser.com/resources/files/preset/gesture_marked",
+        "user_gesture_file": "http://opsen.dolphin-browser.com/resources/files/preset/tunnybrowser_gestures"
+    },
+    "check_update_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "speeddials": [
+        {
+            "sid": 0,
+            "its": [
+                {
+                    "url": "http://www.dolphin-browser.com/apps/aphone.htm",
+                    "p": 0,
+                    "ico": "http://opsen.dolphin-browser.com/resources/icon/hot_apps.png",
+                    "d": false,
+                    "ttl": "Hot Apps"
+                },
+                {
+                    "url": "http://www.google.com/",
+                    "p": 1,
+                    "ico": "http://opsen.dolphin-browser.com/resources/icon/google_1.png",
+                    "d": true,
+                    "ttl": "Google"
+                },
+                {
+                    "url": "http://m.flikie.com/",
+                    "p": 2,
+                    "ico": "http://opsen.dolphin-browser.com/resources/icon/wallpaper1.png",
+                    "d": true,
+                    "ttl": "Wallpaper"
+                },
+                {
+                    "url": "http://www.facebook.com/",
+                    "p": 3,
+                    "ico": "http://opsen.dolphin-browser.com/resources/icon/facebook_new_1.png",
+                    "d": true,
+                    "ttl": "Facebook"
+                },
+                {
+                    "url": "http://www.yahoo.com/",
+                    "p": 4,
+                    "ico": "http://opsen.dolphin-browser.com/resources/icon/yahoo_1.png",
+                    "d": true,
+                    "ttl": "Yahoo!"
+                },
+                {
+                    "p": 5,
+                    "its": [
+                        {
+                            "url": "http://dolphin.com/features/",
+                            "p": 1,
+                            "ico": "http://opsen.dolphin-browser.com/resources/icon/desktop/features.png",
+                            "d": true,
+                            "ttl": "Features"
+                        },
+                        {
+                            "url": "http://dolphin.com/blog/",
+                            "p": 2,
+                            "ico": "http://opsen.dolphin-browser.com/resources/icon/desktop/bolg.png",
+                            "d": true,
+                            "ttl": "Blog"
+                        },
+                        {
+                            "url": "https://dolphinbrowser.desk.com/",
+                            "p": 3,
+                            "ico": "http://opsen.dolphin-browser.com/resources/icon/desktop/FAQ.png",
+                            "d": true,
+                            "ttl": "FAQ"
+                        },
+                        {
+                            "url": "dolphin://feedback",
+                            "p": 4,
+                            "ico": "http://opsen.dolphin-browser.com/resources/icon/desktop/feedback.png",
+                            "d": true,
+                            "ttl": "Feedback"
+                        },
+                        {
+                            "url": "http://dolphin.com/updatenotes/",
+                            "p": 5,
+                            "ico": "http://opsen.dolphin-browser.com/resources/icon/update277bd2.png",
+                            "d": true,
+                            "ttl": "Updates"
+                        }
+                    ],
+                    "ttl": "Dolphin"
+                }
+            ],
+            "id": 1
+        }
+    ],
+    "bookmarks": [
+        {
+            "url": "http://www.weather.com/",
+            "name": "Weather Channel",
+            "order": 5
+        },
+        {
+            "url": "http://www.bing.com/",
+            "name": "Bing",
+            "order": 4
+        },
+        {
+            "url": "http://www.imdb.com/",
+            "name": "IMDB",
+            "order": 3
+        },
+        {
+            "url": "http://www.youtube.com/",
+            "name": "YouTube",
+            "order": 2
+        },
+        {
+            "url": "http://m.wikipedia.com/",
+            "name": "Wikipedia",
+            "order": 1
+        },
+        {
+            "url": "http://www.amazon.com/",
+            "name": "Amazon",
+            "order": 6
+        },
+        {
+            "bookmarks": [
+                {
+                    "url": "http://dolphin.com/features/",
+                    "name": "Features",
+                    "order": 1
+                },
+                {
+                    "url": "http://dolphin.com/blog/",
+                    "name": "Blog ",
+                    "order": 2
+                },
+                {
+                    "url": "https://dolphinbrowser.desk.com/",
+                    "name": "FAQ ",
+                    "order": 3
+                }
+            ],
+            "name": "Dolphin",
+            "order": 11
+        }
+    ],
+    "id": 7,
+    "tutorial": "http://www.dolphin.com/features"
+}

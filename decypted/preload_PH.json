@@ -1,0 +1,342 @@
+{
+    "more_addon_link": "http://dolphin-browser.com/android/addons/index.html",
+    "about": "NULL",
+    "home_page": "dolphin://home",
+    "rate_me_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "more_theme_link": "",
+    "show_download_translate": true,
+    "data_test": false,
+    "strategy": {
+        "duration": 2000,
+        "tutorials": ["tutorial_fast",
+        "tutorial_beautiful",
+        "tutorial_responsive",
+        "tutorial_customized"],
+        "id": 1,
+        "strategy_test": false
+    },
+    "hotapps": "",
+    "search_engines": [{
+        "searches": [{
+            "unique_name": "yahoo",
+            "title": "Yahoo!",
+            "default": true,
+            "suggest": "http://ff.search.yahoo.com/gossip?output=fxjson&command={searchTerms}",
+            "id": 297,
+            "url": "https://ph.search.yahoo.com/yhs/search?hspart=mobotap&hsimp=yhs-mobotap&p={searchTerms}",
+            "order": 1,
+            "color": "#400090",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_yahoo_3.png"
+        },
+        {
+            "unique_name": "google",
+            "title": "Google",
+            "default": false,
+            "suggest": "http://www.google.com/complete/search?hl={language}&client=android&q={searchTerms}",
+            "id": 190,
+            "url": "http://www.google.com/search?hl={language}&ie={inputEncoding}&source=android-browser&q={searchTerms}",
+            "order": 2,
+            "color": "#4283f0",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_google.png"
+        },
+        {
+            "unique_name": "bing",
+            "title": "Bing",
+            "default": false,
+            "suggest": "http://api.bing.com/osjson.aspx?query={searchTerms}&language={language-country}",
+            "id": 191,
+            "url": "http://www.bing.com/search?a=results&q={searchTerms}",
+            "order": 3,
+            "color": "#ffa511",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_bing.png"
+        },
+        {
+            "unique_name": "duckduckgo",
+            "title": "DuckDuckGo",
+            "default": false,
+            "suggest": "http://www.google.com/complete/search?hl={language}&gl={country}&client=android&q={searchTerms}",
+            "id": 193,
+            "url": "https://duckduckgo.com/?t=mobotap&q={searchTerms}",
+            "order": 4,
+            "color": "#e23500",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_duckduckgo.png"
+        },
+        {
+            "unique_name": "yandex_default",
+            "title": "Yandex",
+            "default": false,
+            "suggest": "http://suggest.yandex.net/suggest?mob=1&sn=10&nav=yes&part={searchTerms}",
+            "id": 212,
+            "url": "http://yandex.ru/touchsearch?text={searchTerms}&clid=1771196",
+            "order": 5,
+            "color": "#a2a2a2",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_yandex.png"
+        }],
+        "layout": 101,
+        "title": "General Search yahoo-PH"
+    },
+    {
+        "searches": [{
+            "title": "Amazon",
+            "default": true,
+            "suggest": "http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={searchTerms}&x=0&y=0",
+            "id": 201,
+            "url": "http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={searchTerms}&x=0&y=0",
+            "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_amazon_pressed.png",
+            "order": 1,
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_amazon_normal.png"
+        },
+        {
+            "title": "YouTube",
+            "default": false,
+            "suggest": "http://www.youtube.com/results?search_query={searchTerms}",
+            "id": 196,
+            "url": "http://www.youtube.com/results?search_query={searchTerms}",
+            "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_youtube_pressed.png",
+            "order": 2,
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_youtube_normal.png"
+        },
+        {
+            "title": "Wikipedia",
+            "default": false,
+            "suggest": "http://en.m.wikipedia.org/w/index.php?title=Special:Search&search={searchTerms}",
+            "id": 197,
+            "url": "http://en.m.wikipedia.org/w/index.php?title=Special:Search&search={searchTerms}",
+            "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_wikipedia_pressed.png",
+            "order": 3,
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_wikipedia_normal.png"
+        },
+        {
+            "title": "Ebay",
+            "default": false,
+            "suggest": "http://shop.ebay.com/?_nkw={searchTerms}&_sacat=See-All-Categories",
+            "id": 198,
+            "url": "http://shop.ebay.com/?_nkw={searchTerms}&_sacat=See-All-Categories",
+            "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_ebay_pressed.png",
+            "order": 4,
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_ebay_normal.png"
+        },
+        {
+            "title": "Twitter",
+            "default": false,
+            "suggest": "https://mobile.twitter.com/search/?q={searchTerms}",
+            "id": 199,
+            "url": "https://mobile.twitter.com/search/?q={searchTerms}",
+            "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_twitter_pressed.png",
+            "order": 5,
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_twitter_normal.png"
+        },
+        {
+            "title": "Facebook",
+            "default": false,
+            "suggest": "http://www.facebook.com/#!/search/?q={searchTerms}",
+            "selected": "false",
+            "id": 211,
+            "url": "http://www.facebook.com/#!/search/?q={searchTerms}",
+            "pressed_icon": "http://opsen.dolphin-browser.com/resources/icon/search_with_facebook_pressed.png",
+            "order": 6,
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_facebook_normal.png"
+        }],
+        "layout": 102,
+        "title": "Vertical Search INT"
+    }],
+    "shares": {
+        "recommend_shares": [{
+            "unique_name": "facebook",
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_facebook_normal_1.png",
+            "share_url": "https://share.facebook/share.php?link={url}",
+            "package_name": "com.facebook.katana",
+            "title": "Facebook"
+        },
+        {
+            "unique_name": "twitter",
+            "icon": "http://content.admin.dolphin.com/resources/icon/twitter1.png",
+            "share_url": "https://twitter.com/intent/tweet?text={text}&url={url}&via={via}",
+            "package_name": "com.twitter.android",
+            "title": "Twitter"
+        },
+        {
+            "unique_name": "whatsapp",
+            "icon": "http://content.admin.dolphin.com/resources/icon/desktop/duanzi.jpg",
+            "share_url": "1",
+            "package_name": "com.whatsapp",
+            "title": "Whatsapp"
+        }],
+        "share_content": {
+            "app_url": "http://dolphin.com/download/",
+            "webpage_template": "",
+            "homepage_template": ["#DolphinBrowser 100 million+ users' choice! Fast, smart, simple and fresh UI! Try it! {versionName}",
+            "#DolphinBrowser Lightening fast speed, easy download, simple operation and fresh UI! Try it!{versionName}",
+            "Tired of lag, complex operation and unusable flash? #DolphinBrowser solved everything! Try it!{versionName}"]
+        }
+    },
+    "check_update_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "speeddials": [{
+        "sid": 0,
+        "its": [{
+            "url": "http://www.google.com.ph",
+            "p": 0,
+            "ico": "http://content.admin.dolphin.com/resources/icon/google_3.png",
+            "d": true,
+            "ttl": "Google"
+        },
+        {
+            "url": "http://m.facebook.com",
+            "p": 1,
+            "ico": "http://content.admin.dolphin.com/resources/icon/facebook_new_1_1.png",
+            "d": true,
+            "ttl": "Facebook"
+        },
+        {
+            "url": "http://m.youtube.com",
+            "p": 2,
+            "ico": "http://content.admin.dolphin.com/resources/icon/youtube_1.png",
+            "d": true,
+            "ttl": "Youtube"
+        },
+        {
+            "url": "http://nav.dolphin.com/int/?lc=en-ph&from=int",
+            "p": 3,
+            "ico": "http://content.admin.dolphin.com/resources/icon/icon_for_ID.png",
+            "d": true,
+            "ttl": "Navigator"
+        },
+        {
+            "url": "http://www.olx.ph/",
+            "p": 4,
+            "ico": "http://content.admin.dolphin.com/resources/icon/olx_2.png",
+            "d": true,
+            "ttl": "OLX"
+        },
+        {
+            "url": "http://www.inquirer.net/",
+            "p": 5,
+            "ico": "http://content.admin.dolphin.com/resources/icon/INQ_1.png",
+            "d": true,
+            "ttl": "INQUIRER"
+        },
+        {
+            "url": "https://wordpress.com/",
+            "p": 6,
+            "ico": "http://content.admin.dolphin.com/resources/icon/word-press.png",
+            "d": true,
+            "ttl": "Wordpress"
+        },
+        {
+            "url": "http://instagram.com",
+            "p": 7,
+            "ico": "http://content.admin.dolphin.com/resources/icon/instagram_2.png",
+            "d": true,
+            "ttl": "Instagram"
+        },
+        {
+            "url": "http://www.dolphin-browser.com/apps/aphone.htm",
+            "p": 8,
+            "ico": "http://content.admin.dolphin.com/resources/icon/hot_apps.png",
+            "d": false,
+            "ttl": "Find Apps"
+        },
+        {
+            "p": 9,
+            "its": [{
+                "url": "http://dolphin.com/features/",
+                "p": 1,
+                "ico": "http://content.admin.dolphin.com/resources/icon/features.png",
+                "d": true,
+                "ttl": "Features"
+            },
+            {
+                "url": "http://dolphin.com/blog/",
+                "p": 2,
+                "ico": "http://content.admin.dolphin.com/resources/icon/bolg.png",
+                "d": true,
+                "ttl": "Blog"
+            },
+            {
+                "url": "http://sp.dolphin.com/?platform=dolphin&lc=en_PH",
+                "p": 3,
+                "ico": "http://content.admin.dolphin.com/resources/icon/FAQ.png",
+                "d": true,
+                "ttl": "Support"
+            },
+            {
+                "url": "dolphin://feedback",
+                "p": 4,
+                "ico": "http://content.admin.dolphin.com/resources/icon/feedback.png",
+                "d": true,
+                "ttl": "Feedback"
+            },
+            {
+                "url": "http://dolphin.com/updatenotes/",
+                "p": 5,
+                "ico": "http://content.admin.dolphin.com/resources/icon/update277bd2.png",
+                "d": true,
+                "ttl": "Updates"
+            },
+            {
+                "url": "http://plus.google.com/communities/105383868011227937315",
+                "p": 6,
+                "ico": "http://content.admin.dolphin.com/resources/icon/Information.png",
+                "d": true,
+                "ttl": "Beta Test"
+            }],
+            "ttl": "Dolphin"
+        }],
+        "id": 89
+    }],
+    "gesture": {
+        "marked_file": "http://opsen.dolphin-browser.com/resources/files/preset/gesture_marked",
+        "user_gesture_file": "http://opsen.dolphin-browser.com/resources/files/preset/tunnybrowser_gestures"
+    },
+    "bookmarks": [{
+        "bookmarks": [{
+            "url": "http://dolphin.com/features/",
+            "name": "Features",
+            "order": 1
+        },
+        {
+            "url": "http://dolphin.com/blog/",
+            "name": "Blog ",
+            "order": 2
+        },
+        {
+            "url": "http://sp.dolphin.com/?platform=dolphin&lc=en_PH",
+            "name": "Support",
+            "order": 3
+        }],
+        "name": "Dolphin",
+        "order": 1
+    },
+    {
+        "url": "http://www.wikipedia.org",
+        "name": "Wikipedia.org",
+        "order": 2
+    },
+    {
+        "url": "http://www.linkedin.com",
+        "name": "Linkedin.com",
+        "order": 3
+    },
+    {
+        "url": "http://www.facebook.com",
+        "name": "Facebook",
+        "order": 4
+    },
+    {
+        "url": "http://m.twitter.com",
+        "name": "Twitter",
+        "order": 5
+    },
+    {
+        "url": "http://www.youtube.com",
+        "name": "Youtube",
+        "order": 6
+    },
+    {
+        "url": "http://www.olx.ph/",
+        "name": "OLX",
+        "order": 7
+    }],
+    "id": 203,
+    "tutorial": "http://www.dolphin-browser.com/features"
+}

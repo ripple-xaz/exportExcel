@@ -1,0 +1,274 @@
+{
+    "more_addon_link": "http://dolphin-browser.com/android/addons/index.html",
+    "about": "NULL",
+    "home_page": "dolphin://home",
+    "rate_me_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "more_theme_link": "",
+    "show_download_translate": true,
+    "data_test": false,
+    "strategy": {
+        "duration": 2000,
+        "tutorials": ["tutorial_fast",
+        "tutorial_beautiful",
+        "tutorial_responsive",
+        "tutorial_customized"],
+        "id": 1,
+        "strategy_test": false
+    },
+    "hotapps": "",
+    "search_engines": [{
+        "searches": [{
+            "unique_name": "yandex",
+            "title": "Яндекс",
+            "default": true,
+            "suggest": "http://suggest.yandex.net/suggest?clid=1771196&mob=1sn=10&nav=yes&part={searchTerms}",
+            "id": 314,
+            "url": "http://yandex.ru/touchsearch?text={searchTerms}&clid=1771196",
+            "order": 1,
+            "color": "#a2a2a2",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_yandex.png"
+        },
+        {
+            "unique_name": "google",
+            "title": "Google",
+            "default": false,
+            "suggest": "http://www.google.com/search?hl={language}&gl={country}&ie={inputEncoding}&source=android-browser&q={searchTerms}",
+            "id": 261,
+            "url": "http://www.google.com/search?hl={language}&gl={country}&ie={inputEncoding}&source=android-browser&q={searchTerms}",
+            "order": 2,
+            "color": "#4283f0",
+            "icon": "http://content.admin.dolphin.com/resources/icon/Search_engine_google_1.png"
+        },
+        {
+            "title": "Mail.ru",
+            "default": false,
+            "suggest": "",
+            "order": 3,
+            "url": "http://go.mail.ru/search?mailru=1&q={searchTerms}",
+            "id": 264,
+            "icon": "http://content.admin.dolphin.com/resources/icon/mail.png"
+        },
+        {
+            "unique_name": "rambler",
+            "title": "Rambler",
+            "default": false,
+            "suggest": "http://www.google.com/complete/search?hl={language}&gl={country}&client=android&q={searchTerms}",
+            "id": 381,
+            "url": "http://nova.rambler.ru/search?utm_source=nhp&query={searchTerms}",
+            "order": 4,
+            "color": "#FFFFD",
+            "icon": "http://content.admin.dolphin.com/resources/icon/rambler_2.png"
+        }],
+        "layout": 101,
+        "title": "Dolphin for 吉尔吉斯斯坦 ru_KG 338+ INT"
+    }],
+    "shares": {
+        "recommend_shares": [{
+            "unique_name": "facebook",
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_facebook_normal_1.png",
+            "share_url": "https://share.facebook/share.php?link={url}",
+            "package_name": "com.facebook.katana",
+            "title": "Facebook"
+        },
+        {
+            "unique_name": "twitter",
+            "icon": "http://content.admin.dolphin.com/resources/icon/twitter1.png",
+            "share_url": "https://twitter.com/intent/tweet?text={text}&url={url}&via={via}",
+            "package_name": "com.twitter.android",
+            "title": "Twitter"
+        },
+        {
+            "unique_name": "whatsapp",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_dolphin_1_1.png",
+            "share_url": "1",
+            "package_name": "com.whatsapp",
+            "title": "Whatsapp"
+        }],
+        "share_content": {
+            "app_url": "http://dolphin.com/download/",
+            "webpage_template": "",
+            "homepage_template": ["#DolphinBrowser 100 million+ users' choice! Fast, smart, simple and fresh UI! Try it! {versionName}",
+            "#DolphinBrowser Lightening fast speed, easy download, simple operation and fresh UI! Try it!{versionName}",
+            "Tired of lag, complex operation and unusable flash? #DolphinBrowser solved everything! Try it!{versionName}"]
+        }
+    },
+    "check_update_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "speeddials": [{
+        "sid": 0,
+        "its": [{
+            "url": "http://www.dolphin-browser.com/apps/aphone.htm",
+            "p": 0,
+            "ico": "http://content.admin.dolphin.com/resources/icon/hot_apps.png",
+            "d": true,
+            "ttl": "Топ приложения"
+        },
+        {
+            "url": "http://www.yandex.ru/?clid=1771222",
+            "p": 1,
+            "ico": "http://content.admin.dolphin.com/resources/icon/yandex.png",
+            "d": true,
+            "ttl": "Яндекс"
+        },
+        {
+            "url": "http://m.odnoklassniki.ru/",
+            "p": 2,
+            "ico": "http://content.admin.dolphin.com/resources/icon/odnoklassniki_1.png",
+            "d": true,
+            "ttl": "Одноклассники"
+        },
+        {
+            "url": "http://nav.dolphin.com/int/?lc=ru-ru&from=int",
+            "p": 3,
+            "ico": "http://content.admin.dolphin.com/resources/icon/Russia.png",
+            "d": true,
+            "ttl": "Навигация"
+        },
+        {
+            "url": "http://goo.gl/BMLo7K",
+            "p": 4,
+            "ico": "http://content.admin.dolphin.com/resources/icon/VK_1.png",
+            "d": true,
+            "ttl": "Вконтакте"
+        },
+        {
+            "url": "https://m.avito.ru/",
+            "p": 5,
+            "ico": "http://content.admin.dolphin.com/resources/icon/avito_2.png",
+            "d": true,
+            "ttl": "АВИТО"
+        },
+        {
+            "url": "http://m.youtube.com",
+            "p": 6,
+            "ico": "http://content.admin.dolphin.com/resources/icon/youtube_1.png",
+            "d": true,
+            "ttl": "Youtube"
+        },
+        {
+            "url": "http://mail.ru/touch",
+            "p": 7,
+            "ico": "http://content.admin.dolphin.com/resources/icon/Mail.png",
+            "d": true,
+            "ttl": "Mail.Ru"
+        },
+        {
+            "url": "http://www.wikipedia.org/",
+            "p": 8,
+            "ico": "http://content.admin.dolphin.com/resources/icon/wiki_1.png",
+            "d": true,
+            "ttl": "Википедия"
+        },
+        {
+            "p": 9,
+            "its": [{
+                "url": "http://dolphin.com/features/",
+                "p": 0,
+                "ico": "http://content.admin.dolphin.com/resources/icon/features.png",
+                "d": true,
+                "ttl": "Особенности"
+            },
+            {
+                "url": "http://dolphin.com/blog/",
+                "p": 1,
+                "ico": "http://content.admin.dolphin.com/resources/icon/bolg.png",
+                "d": true,
+                "ttl": "Блог"
+            },
+            {
+                "url": "https://dolphinbrowser.desk.com",
+                "p": 2,
+                "ico": "http://content.admin.dolphin.com/resources/icon/Support_center.png",
+                "d": true,
+                "ttl": "FAQ"
+            },
+            {
+                "url": "dolphin://feedback",
+                "p": 3,
+                "ico": "http://content.admin.dolphin.com/resources/icon/feedback.png",
+                "d": true,
+                "ttl": "Обратная связь"
+            },
+            {
+                "url": "http://dolphin.com/updatenotes/",
+                "p": 4,
+                "ico": "http://content.admin.dolphin.com/resources/icon/update277bd2.png",
+                "d": true,
+                "ttl": "Обновления"
+            },
+            {
+                "url": "http://plus.google.com/communities/105383868011227937315",
+                "p": 5,
+                "ico": "http://content.admin.dolphin.com/resources/icon/Information.png",
+                "d": true,
+                "ttl": "Бета-тестирование"
+            }],
+            "ttl": "Dolphin"
+        }],
+        "id": 149
+    }],
+    "gesture": {
+        "marked_file": "http://opsen.dolphin-browser.com/resources/files/preset/gesture_marked",
+        "user_gesture_file": "http://opsen.dolphin-browser.com/resources/files/preset/tunnybrowser_gestures_ru"
+    },
+    "bookmarks": [{
+        "url": "http://www.yandex.ru/?clid=2119834",
+        "name": "Яндекс",
+        "order": 1
+    },
+    {
+        "url": "http://ru.m.wikipedia.org/",
+        "name": "Википедия",
+        "order": 2
+    },
+    {
+        "url": "http://m.ria.ru/",
+        "name": "РИА новости",
+        "order": 3
+    },
+    {
+        "url": "http://news.mail.ru/",
+        "name": "Новости@mail.ru",
+        "order": 4
+    },
+    {
+        "url": "http://www.kinopoisk.ru/",
+        "name": "КиноПоиск",
+        "order": 5
+    },
+    {
+        "url": "http://www.gismeteo.ru/",
+        "name": "Гисметео",
+        "order": 6
+    },
+    {
+        "url": "http://www.youtube.com/",
+        "name": "YouTube",
+        "order": 7
+    },
+    {
+        "url": "http://www.ozon.ru/",
+        "name": "ОЗОН.ру",
+        "order": 8
+    },
+    {
+        "bookmarks": [{
+            "url": "http://dolphin.com/features/",
+            "name": "Особенности",
+            "order": 1
+        },
+        {
+            "url": "http://dolphin.com/blog/",
+            "name": "Блог",
+            "order": 2
+        },
+        {
+            "url": "https://dolphinbrowser.desk.com/",
+            "name": "FAQ",
+            "order": 3
+        }],
+        "name": "dolphin",
+        "order": 9
+    }],
+    "id": 281,
+    "tutorial": "http://www.dolphin-browser.com/features"
+}

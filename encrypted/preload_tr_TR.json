@@ -1,0 +1,289 @@
+{
+    "more_addon_link": "http://dolphin-browser.com/android/addons/index.html",
+    "about": "",
+    "bookmarks": [{
+        "url": "http://www.yandex.com.tr/?clid=2053117",
+        "name": "Yandex",
+        "order": 1
+    },
+    {
+        "url": "http://www.wikipedia.org/",
+        "name": "Wikipedia",
+        "order": 2
+    },
+    {
+        "url": "http://mobile.twitter.com/",
+        "name": "Twitter",
+        "order": 4
+    },
+    {
+        "url": "http://r10.net/",
+        "name": "R10.net",
+        "order": 5
+    },
+    {
+        "url": "http://www.haber7.com/",
+        "name": "Haber7",
+        "order": 6
+    },
+    {
+        "url": "http://www.milliyet.com.tr/",
+        "name": "Milliyet",
+        "order": 7
+    },
+    {
+        "url": "http://www.sporx.com/",
+        "name": "Sporx",
+        "order": 8
+    },
+    {
+        "bookmarks": [{
+            "url": "http://dolphin.com/features/",
+            "name": "Features",
+            "order": 1
+        },
+        {
+            "url": "http://dolphin.com/blog/",
+            "name": "Blog ",
+            "order": 2
+        },
+        {
+            "url": "https://dolphinbrowser.desk.com/",
+            "name": "FAQ",
+            "order": 3
+        }],
+        "name": "Dolphin",
+        "order": 9
+    }],
+    "home_page": "dolphin://home",
+    "rate_me_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "more_theme_link": "",
+    "shares": {
+        "recommend_shares": [{
+            "unique_name": "facebook",
+            "title": "Facebook",
+            "package_name": "com.facebook.katana",
+            "share_url": "https://share.facebook/share.php?link={url}",
+            "icon": "http://opsen-static.dolphin-browser.com/resources/preset_icon/search_with_facebook_normal_1.png"
+        },
+        {
+            "unique_name": "twitter",
+            "title": "Twitter",
+            "package_name": "com.twitter.android",
+            "share_url": "https://twitter.com/intent/tweet?text={text}&url={url}&via={via}",
+            "icon": "http://opsen-static.dolphin-browser.com/resources/preset_icon/twitter1.png"
+        },
+        {
+            "unique_name": "whatsapp",
+            "title": "Whatsapp",
+            "package_name": "com.whatsapp",
+            "share_url": "1",
+            "icon": "http://opsen-static.dolphin-browser.com/resources/preset_icon/engine_dolphin_1_1.png"
+        }],
+        "share_content": {
+            "app_url": "http://dolphin.com/download/",
+            "webpage_template": "",
+            "homepage_template": ["#DolphinBrowser 100 million+ users' choice! Fast, smart, simple and fresh UI! Try it! {versionName}",
+            "#DolphinBrowser Lightening fast speed, easy download, simple operation and fresh UI! Try it!{versionName}",
+            "Tired of lag, complex operation and unusable flash? #DolphinBrowser solved everything! Try it!{versionName}"]
+        }
+    },
+    "strategy": {
+        "duration": 2000,
+        "tutorials": ["tutorial_fast",
+        "tutorial_beautiful",
+        "tutorial_responsive",
+        "tutorial_customized"],
+        "id": 1,
+        "strategy_test": false
+    },
+    "tutorial": "http://www.dolphin-browser.com/features",
+    "speeddials": [{
+        "id": 208,
+        "its": [{
+            "url": "https://www.google.com.tr",
+            "p": 1,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/google_3.png",
+            "d": true,
+            "ttl": "Google"
+        },
+        {
+            "url": "https://www.facebook.com",
+            "p": 2,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/facebook_new_1_1.png",
+            "d": true,
+            "ttl": "Facebook"
+        },
+        {
+            "url": "http://www.geziko.com?affId=184155&utm_source=affiliate&utm_medium=184155&utm_campaign=Dolphin_mobile",
+            "p": 3,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/1423454395.png",
+            "d": true,
+            "ttl": "Uçak Bileti"
+        },
+        {
+            "url": "http://m.youtube.com",
+            "p": 4,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/youtube_1.png",
+            "d": true,
+            "ttl": "Youtube"
+        },
+        {
+            "url": "http://action.metaffiliation.com/trk.php?mclic=P4A3D95646A922D1",
+            "p": 5,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/1423454600.png",
+            "d": true,
+            "ttl": "TurkNET"
+        },
+        {
+            "url": "http://nav.dolphin.com/int/?lc=tr-tr&from=int",
+            "p": 6,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/icon_for_ID.png",
+            "d": true,
+            "ttl": "Yönlendirici"
+        },
+        {
+            "url": "http://www.dolphin-browser.com/apps/aphone.htm",
+            "p": 7,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/hot_apps.png",
+            "d": false,
+            "ttl": "Find Apps"
+        },
+        {
+            "url": "http://www.hurriyet.com.tr/",
+            "p": 8,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/Hurriyet.png",
+            "d": true,
+            "ttl": "Hürriyet"
+        },
+        {
+            "url": "http://www.yandex.com.tr/?clid=2053116",
+            "p": 9,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/yandex_2.png",
+            "d": true,
+            "ttl": "Yandex"
+        },
+        {
+            "url": "http://www.sahibinden.com/",
+            "p": 10,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/Sahibinden.png",
+            "d": true,
+            "ttl": "Sahibinden"
+        },
+        {
+            "url": "http://www.mynet.com/",
+            "p": 11,
+            "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/Mynet.png",
+            "d": true,
+            "ttl": "Mynet"
+        },
+        {
+            "p": 12,
+            "its": [{
+                "url": "http://dolphin.com/features/",
+                "p": 1,
+                "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/features.png",
+                "d": true,
+                "ttl": "Features"
+            },
+            {
+                "url": "http://dolphin.com/blog/",
+                "p": 2,
+                "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/bolg.png",
+                "d": true,
+                "ttl": "Blog"
+            },
+            {
+                "url": "http://dolphin.com/support/en/index.html",
+                "p": 3,
+                "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/FAQ.png",
+                "d": true,
+                "ttl": "FAQ"
+            },
+            {
+                "url": "dolphin://feedback",
+                "p": 4,
+                "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/feedback.png",
+                "d": true,
+                "ttl": "Feedback"
+            },
+            {
+                "url": "http://dolphin.com/updatenotes/",
+                "p": 5,
+                "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/update277bd2.png",
+                "d": true,
+                "ttl": "Updates"
+            },
+            {
+                "url": "http://plus.google.com/communities/105383868011227937315",
+                "p": 6,
+                "ico": "http://opsen-static.dolphin-browser.com/resources/preset_icon/Information.png",
+                "d": true,
+                "ttl": "Beta Test"
+            }],
+            "ttl": "Dolphin"
+        }],
+        "sid": 0
+    }],
+    "hotapps": "",
+    "show_download_translate": false,
+    "data_test": false,
+    "check_update_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "search_engines": [{
+        "searches": [{
+            "unique_name": "yandex",
+            "title": "Yandex",
+            "default": true,
+            "suggest": "http://suggest.yandex.net/suggest?clid=2053114&mob=1sn=10&nav=yes&part={searchTerms}",
+            "order": 1,
+            "url": "http://yandex.com.tr/touchsearch?text={searchTerms}&clid=2053114",
+            "logo": "http://opsen-static.dolphin-browser.com/resources/preset_icon/engine_yandex.png",
+            "id": 45,
+            "color": "#a2a2a2",
+            "icon": "http://opsen-static.dolphin-browser.com/resources/preset_icon/engine_yandex.png"
+        },
+        {
+            "unique_name": "google",
+            "title": "Google",
+            "default": false,
+            "suggest": "http://www.google.com/complete/search?hl={language}&gl={country}&client=android&q={searchTerms}",
+            "order": 2,
+            "url": "http://www.google.com/search?hl={language}&gl={country}&ie={inputEncoding}&source=android-browser&q={searchTerms}",
+            "logo": "http://opsen-static.dolphin-browser.com/resources/preset_icon/engine_google.png",
+            "id": 46,
+            "color": "#4283f0",
+            "icon": "http://opsen-static.dolphin-browser.com/resources/preset_icon/engine_google.png"
+        },
+        {
+            "unique_name": "bing",
+            "title": "Bing",
+            "default": false,
+            "suggest": "http://api.bing.com/osjson.aspx?query={searchTerms}&language={language-country}",
+            "order": 3,
+            "url": "http://www.bing.com/search?a=results&q={searchTerms}",
+            "logo": "http://opsen-static.dolphin-browser.com/resources/preset_icon/engine_bing.png",
+            "id": 47,
+            "color": "#ffa511",
+            "icon": "http://opsen-static.dolphin-browser.com/resources/preset_icon/engine_bing.png"
+        },
+        {
+            "unique_name": "yahoo",
+            "title": "Yahoo!",
+            "default": false,
+            "suggest": "http://ff.search.yahoo.com/gossip?output=fxjson&command={searchTerms}",
+            "order": 4,
+            "url": "http://search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+            "logo": "http://opsen-static.dolphin-browser.com/resources/preset_icon/1421126299.png",
+            "id": 48,
+            "color": "#8b2b90",
+            "icon": "http://opsen-static.dolphin-browser.com/resources/preset_icon/1421126299.png"
+        }],
+        "layout": 101,
+        "title": "General Search INT TR"
+    }],
+    "id": 148,
+    "gesture": {
+        "marked_file": "http://opsen.dolphin-browser.com/resources/files/preset/gesture_marked",
+        "user_gesture_file": "http://opsen-static.dolphin-browser.com/resources/preset_gesture/tunnybrowser_gestures"
+    }
+}

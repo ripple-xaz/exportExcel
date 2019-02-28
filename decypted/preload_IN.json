@@ -1,0 +1,468 @@
+{
+    "more_addon_link": "http://dolphin-browser.com/android/addons/index.html",
+    "about": "NULL",
+    "home_page": "dolphin://home",
+    "rate_me_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "more_theme_link": "",
+    "show_download_translate": true,
+    "data_test": false,
+    "strategy": {
+        "duration": 2000,
+        "tutorials": ["tutorial_fast",
+        "tutorial_beautiful",
+        "tutorial_responsive",
+        "tutorial_customized"],
+        "id": 1,
+        "strategy_test": false
+    },
+    "hotapps": "",
+    "search_engines": [{
+        "searches": [{
+            "title": "Dolphin",
+            "default": false,
+            "suggest": "",
+            "order": 0,
+            "url": "http://in.dolphin.com/?q={searchTerms}",
+            "id": 383,
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_dolphin_1_2.png"
+        },
+        {
+            "unique_name": "yahoo",
+            "title": "Yahoo! ",
+            "default": false,
+            "suggest": "http://ff.search.yahoo.com/gossip?output=fxjson&command={searchTerms}",
+            "id": 352,
+            "url": "https://in.search.yahoo.com/yhs/search?hspart=mobotap&hsimp=yhs-mobotap&p={searchTerms}",
+            "order": 1,
+            "color": "#400090",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_yahoo_3.png"
+        },
+        {
+            "unique_name": "google",
+            "title": "Google.in",
+            "default": true,
+            "suggest": "http://www.google.co.in/complete/search?hl={language}&gl={country}&client=android&q={searchTerms}",
+            "id": 234,
+            "url": "http://www.google.co.in/search?hl={language}&gl={country}&ie={inputEncoding}&source=android-browser&q={searchTerms}",
+            "order": 2,
+            "color": "#4283f0",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_google.png"
+        },
+        {
+            "unique_name": "rediff",
+            "title": "Rediff",
+            "default": false,
+            "suggest": "http://realtime.rediff.com/news#!{searchTerms}",
+            "id": 236,
+            "url": "http://realtime.rediff.com/news#!{searchTerms}",
+            "order": 3,
+            "color": "#C60000",
+            "icon": "http://content.admin.dolphin.com/resources/icon/Rediff.png"
+        }],
+        "layout": 101,
+        "title": "General Search en-IN 354+ INT"
+    }],
+    "shares": {
+        "recommend_shares": [{
+            "unique_name": "facebook",
+            "icon": "http://content.admin.dolphin.com/resources/icon/search_with_facebook_normal_1.png",
+            "share_url": "https://share.facebook/share.php?link={url}",
+            "package_name": "com.facebook.katana",
+            "title": "Facebook"
+        },
+        {
+            "unique_name": "twitter",
+            "icon": "http://content.admin.dolphin.com/resources/icon/twitter1.png",
+            "share_url": "https://twitter.com/intent/tweet?text={text}&url={url}&via={via}",
+            "package_name": "com.twitter.android",
+            "title": "Twitter"
+        },
+        {
+            "unique_name": "whatsapp",
+            "icon": "http://content.admin.dolphin.com/resources/icon/engine_dolphin_1_1.png",
+            "share_url": "1",
+            "package_name": "com.whatsapp",
+            "title": "Whatsapp"
+        }],
+        "share_content": {
+            "app_url": "http://dolphin.com/download/",
+            "webpage_template": "",
+            "homepage_template": ["#DolphinBrowser 100 million+ users' choice! Fast, smart, simple and fresh UI! Try it!{versionName}",
+            "#DolphinBrowser Lightening fast speed, easy download, simple operation and fresh UI! Try it!{versionName}",
+            "Tired of lag, complex operation and unusable flash? #DolphinBrowser solved everything! Try it!{versionName}"]
+        }
+    },
+    "check_update_link": "market://details?id=mobi.mgeek.TunnyBrowser",
+    "speeddials": [{
+        "sid": 0,
+        "its": [{
+            "url": "http://www.dolphin-browser.com/apps/aphone.htm",
+            "p": 0,
+            "ico": "http://content.admin.dolphin.com/resources/icon/hot_apps.png",
+            "d": false,
+            "ttl": "Find Apps"
+        },
+        {
+            "url": "http://www.google.co.in",
+            "p": 1,
+            "ico": "http://content.admin.dolphin.com/resources/icon/google_1_1.png",
+            "d": true,
+            "ttl": "Google"
+        },
+        {
+            "url": "http://www.facebook.com",
+            "p": 2,
+            "ico": "http://content.admin.dolphin.com/resources/icon/facebook_new_1.png",
+            "d": true,
+            "ttl": "Facebook"
+        },
+        {
+            "url": "http://nav.dolphin.com/int/?lc=hi-in&from=int ",
+            "p": 3,
+            "ico": "http://content.admin.dolphin.com/resources/icon/icon_for_ID.png",
+            "d": true,
+            "ttl": "Navigation"
+        },
+        {
+            "url": "http://www.flipkart.com",
+            "p": 4,
+            "ico": "http://content.admin.dolphin.com/resources/icon/Flipkart_3.png",
+            "d": true,
+            "ttl": "Flipkart"
+        },
+        {
+            "url": "http://www.youtube.com/",
+            "p": 5,
+            "ico": "http://content.admin.dolphin.com/resources/icon/youtube.png",
+            "d": true,
+            "ttl": "YouTube"
+        },
+        {
+            "p": 6,
+            "its": [{
+                "url": "http://m.espncricinfo.com/",
+                "p": 0,
+                "ico": "http://content.admin.dolphin.com/resources/icon/espn.png",
+                "d": true,
+                "ttl": "Cricinfo"
+            },
+            {
+                "url": "http://timesofindia.indiatimes.com/",
+                "p": 1,
+                "ico": "http://content.admin.dolphin.com/resources/icon/Times.png",
+                "d": true,
+                "ttl": "Times"
+            },
+            {
+                "url": "https://www.hindustantimes.com/india-news/",
+                "p": 2,
+                "ico": "http://content.admin.dolphin.com/resources/icon/Hindustan.png",
+                "d": true,
+                "ttl": "HT"
+            },
+            {
+                "url": "http://www.thehindu.com/",
+                "p": 3,
+                "ico": "http://content.admin.dolphin.com/resources/icon/thehindu_1.png",
+                "d": true,
+                "ttl": "The Hindu"
+            }],
+            "ttl": "News"
+        },
+        {
+            "p": 7,
+            "its": [{
+                "url": "http://www.makemytrip.com",
+                "p": 0,
+                "ico": "http://content.admin.dolphin.com/resources/icon/makemytrip.png",
+                "d": true,
+                "ttl": "Trip"
+            },
+            {
+                "url": "https://www.irctc.co.in",
+                "p": 1,
+                "ico": "http://content.admin.dolphin.com/resources/icon/irctc.png",
+                "d": true,
+                "ttl": "IRCTC"
+            },
+            {
+                "url": "http://cbseresults.nic.in",
+                "p": 2,
+                "ico": "http://content.admin.dolphin.com/resources/icon/cbseresults.png",
+                "d": true,
+                "ttl": "CBSE"
+            },
+            {
+                "url": "https://paytm.com",
+                "p": 3,
+                "ico": "http://content.admin.dolphin.com/resources/icon/paytm_1.png",
+                "d": true,
+                "ttl": "PayTM"
+            },
+            {
+                "url": "http://www.indianrail.gov.in/pnr_Enq.html",
+                "p": 4,
+                "ico": "http://content.admin.dolphin.com/resources/icon/indianrail.png",
+                "d": true,
+                "ttl": "PNR"
+            },
+            {
+                "url": "https://netbanking.hdfcbank.com/netbanking/",
+                "p": 5,
+                "ico": "http://content.admin.dolphin.com/resources/icon/hdfcbank.png",
+                "d": true,
+                "ttl": "Bank"
+            },
+            {
+                "url": "http://www.olx.in",
+                "p": 6,
+                "ico": "http://content.admin.dolphin.com/resources/icon/olx.png",
+                "d": true,
+                "ttl": "OLX"
+            }],
+            "ttl": "Lifestyle"
+        },
+        {
+            "p": 8,
+            "its": [{
+                "url": "http://dolphin.com/features/",
+                "p": 1,
+                "ico": "http://content.admin.dolphin.com/resources/icon/features.png",
+                "d": true,
+                "ttl": "Features"
+            },
+            {
+                "url": "http://dolphin.com/blog/",
+                "p": 2,
+                "ico": "http://content.admin.dolphin.com/resources/icon/bolg.png",
+                "d": true,
+                "ttl": "Blog"
+            },
+            {
+                "url": "http://sp.dolphin.com/?platform=dolphin&lc=en_IN",
+                "p": 3,
+                "ico": "http://content.admin.dolphin.com/resources/icon/FAQ.png",
+                "d": true,
+                "ttl": "Support"
+            },
+            {
+                "url": "dolphin://feedback",
+                "p": 4,
+                "ico": "http://content.admin.dolphin.com/resources/icon/feedback.png",
+                "d": true,
+                "ttl": "Feedback"
+            },
+            {
+                "url": "http://dolphin.com/updatenotes/",
+                "p": 5,
+                "ico": "http://content.admin.dolphin.com/resources/icon/update277bd2.png",
+                "d": true,
+                "ttl": "Updates"
+            },
+            {
+                "url": "http://plus.google.com/communities/105383868011227937315",
+                "p": 6,
+                "ico": "http://content.admin.dolphin.com/resources/icon/Information.png",
+                "d": true,
+                "ttl": "Beta Test"
+            }],
+            "ttl": "Dolphin"
+        }],
+        "id": 84
+    }],
+    "gesture": {
+        "marked_file": "http://opsen.dolphin-browser.com/resources/files/preset/gesture_marked",
+        "user_gesture_file": "http://opsen.dolphin-browser.com/resources/files/preset/tunnybrowser_gestures"
+    },
+    "bookmarks": [{
+        "bookmarks": [{
+            "url": "http://in.m.yahoo.com/",
+            "name": "Yahoo.in",
+            "order": 1
+        },
+        {
+            "url": "http://m.indiatimes.com/",
+            "name": "Indiatimes",
+            "order": 2
+        },
+        {
+            "url": "http://www.google.co.in/",
+            "name": "Google.in",
+            "order": 3
+        }],
+        "name": "News&Search",
+        "order": 0
+    },
+    {
+        "url": "http://m.ndtv.com/",
+        "name": "NDTV",
+        "order": 1
+    },
+    {
+        "url": "http://m.wikipedia.com/",
+        "name": "Wikipedia",
+        "order": 2
+    },
+    {
+        "url": "http://m.indianexpress.com/",
+        "name": "The Indian Express",
+        "order": 3
+    },
+    {
+        "url": "http://m.in.com/in/",
+        "name": "In.com",
+        "order": 4
+    },
+    {
+        "url": "http://m.rediff.com/",
+        "name": "Rediff",
+        "order": 5
+    },
+    {
+        "url": "http://m.thehindu.com/",
+        "name": "The Hindu",
+        "order": 6
+    },
+    {
+        "bookmarks": [{
+            "url": "http://m.facebook.com/",
+            "name": "facebook",
+            "order": 1
+        },
+        {
+            "url": "http://m.pinterest.com/",
+            "name": "Pinterest",
+            "order": 2
+        },
+        {
+            "url": "https://mobile.twitter.com",
+            "name": "Twitter",
+            "order": 3
+        },
+        {
+            "url": "http://www.reddit.com/.compact",
+            "name": "Reddit",
+            "order": 4
+        },
+        {
+            "url": "http://www.linkedin.com/",
+            "name": "LinkedIn",
+            "order": 5
+        }],
+        "name": "Social Network",
+        "order": 7
+    },
+    {
+        "bookmarks": [{
+            "url": "http://volans.cricbuzz.com/1",
+            "name": "Cricbuzz",
+            "order": 1
+        },
+        {
+            "url": "http://www.youtube.com/",
+            "name": "Youtube",
+            "order": 2
+        },
+        {
+            "url": "http://m.espncricinfo.com/",
+            "name": "ESPNcricinfo",
+            "order": 3
+        },
+        {
+            "url": "http://www.imdb.com/",
+            "name": "IMDB",
+            "order": 4
+        }],
+        "name": "Sports&Entertainment",
+        "order": 8
+    },
+    {
+        "bookmarks": [{
+            "url": "http://www.myntra.com/",
+            "name": "Myntra",
+            "order": 1
+        },
+        {
+            "url": "http://www.amazon.in/",
+            "name": "Amazon.in",
+            "order": 2
+        },
+        {
+            "url": "http://www.quikr.com/",
+            "name": "Quikr",
+            "order": 3
+        },
+        {
+            "url": "http://m.olx.in/",
+            "name": "OLX",
+            "order": 4
+        },
+        {
+            "url": "http://m.snapdeal.com/",
+            "name": "Snapdeal",
+            "order": 5
+        },
+        {
+            "url": "http://www.flipkart.com/",
+            "name": "Flipkart",
+            "order": 6
+        }],
+        "name": "Shopping",
+        "order": 9
+    },
+    {
+        "bookmarks": [{
+            "url": "http://yourstory.in/",
+            "name": "YourStory",
+            "order": 1
+        },
+        {
+            "url": "http://www.gizmodo.in/",
+            "name": "Gizmodo India",
+            "order": 2
+        },
+        {
+            "url": "http://www.igyaan.in/",
+            "name": "Igyaan",
+            "order": 3
+        },
+        {
+            "url": "http://m.tech2.com/",
+            "name": "Tech2",
+            "order": 4
+        },
+        {
+            "url": "http://www.lifehacker.co.in/",
+            "name": "Lifehacker India",
+            "order": 5
+        },
+        {
+            "url": "http://m.techcrunch.com/",
+            "name": "TechCrunch",
+            "order": 6
+        }],
+        "name": "Technology",
+        "order": 10
+    },
+    {
+        "bookmarks": [{
+            "url": "http://dolphin.com/features/",
+            "name": "Features",
+            "order": 1
+        },
+        {
+            "url": "http://dolphin.com/blog/",
+            "name": "Blog ",
+            "order": 2
+        },
+        {
+            "url": "http://sp.dolphin.com/?platform=dolphin&lc=en_IN",
+            "name": "Support",
+            "order": 3
+        }],
+        "name": "Dolphin",
+        "order": 11
+    }],
+    "id": 208,
+    "tutorial": "http://www.dolphin-browser.com/features"
+}
